@@ -48,4 +48,8 @@ class Owner
    self.cats.each{ |cat| cat.mood = "nervous"} && self.dogs.each{ |dog| dog.mood = "nervous"}
    self.cats.each{ |cat| cat.owner = nil} && self.dogs.each{ |dog| dog.owner = nil}
  end
+ 
+ def list_pets
+   puts "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
+ end
 end
