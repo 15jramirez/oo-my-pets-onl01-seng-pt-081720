@@ -51,6 +51,5 @@ class Owner
  
  def list_pets
    puts "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
-   binding.pry
  end
 end
